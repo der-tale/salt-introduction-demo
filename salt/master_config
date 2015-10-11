@@ -1,0 +1,14 @@
+fileserver_backend:
+  - roots
+
+file_roots:
+  base:
+    - /srv/salt/states
+    - /srv/salt/formulas/sun-java-formula
+    - /srv/salt/formulas/aoache-formula
+
+pillar_roots:
+  base:
+    - /srv/salt/pillars
+
+log_level: debug

@@ -1,0 +1,6 @@
+[submodule "salt/formulas/sun-java-formula"]
+	path = salt/formulas/sun-java-formula
+	url = https://github.com/saltstack-formulas/sun-java-formula.git
+[submodule "salt/formulas/apache-formula"]
+	path = salt/formulas/apache-formula
+	url = https://github.com/saltstack-formulas/apache-formula.git

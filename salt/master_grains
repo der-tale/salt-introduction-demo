@@ -1,0 +1,4 @@
+roles:
+  - saltmaster
+  - lb
+  - app

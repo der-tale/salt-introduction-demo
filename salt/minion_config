@@ -1,0 +1,4 @@
+master: 192.168.33.40
+
+log_level: debug
+mine_interval: 1

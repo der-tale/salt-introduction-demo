@@ -1,0 +1,10 @@
+[Unit]
+Description={{ name }}
+After=syslog.target
+
+[Service]
+ExecStart={{ executable }}
+User={{ user }}
+
+[Install]
+WantedBy=multi-user.target
