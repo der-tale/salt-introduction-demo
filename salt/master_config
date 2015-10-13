@@ -5,7 +5,7 @@ file_roots:
   base:
     - /srv/salt/states
     - /srv/salt/formulas/sun-java-formula
-    - /srv/salt/formulas/aoache-formula
+    - /srv/salt/formulas/apache-formula
 
 pillar_roots:
   base:
