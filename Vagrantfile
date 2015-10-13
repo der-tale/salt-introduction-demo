@@ -102,35 +102,4 @@ Vagrant.configure(2) do |config|
 
   end
 
-
-  # blog vm for mysql, apache to host wordpress
-  # config.vm.define "blog", autostart: false do |blog|
-  #
-  #   blog.vm.hostname = "blog.mitenant.dev"
-  #
-  #   blog.vm.network "private_network", ip: "192.168.33.31", nictype: 'virtio'
-  #
-  #   blog.vm.synced_folder "../blog", "/mnt/blog", nfs: true
-  #
-  #   # TODO: wordpress synced folder
-  #
-  #   blog.vm.provider "virtualbox" do |vb|
-  #
-  #     vb.cpus = 2
-  #     vb.memory = "1024"
-  #     # vb.paravirtprovider = "kvm"
-  #   end
-  #
-  #   blog.vm.provision :salt do |salt|
-  #
-  #     salt.minion_config = "salt/minion_blog"
-  #     salt.bootstrap_options = "-F -c /tmp -P"
-  #     salt.install_command = nil
-  #     salt.run_highstate = true
-  #     salt.log_level = "debug"
-  #
-  #   end
-  #
-  # end
-
 end
